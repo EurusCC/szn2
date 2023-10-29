@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>简易计算器</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+
+    <body>
+
+
+        <div class="box">
+            第一个数:<input type="number" name="num1" id="num1" /><br />
+            第二个数:<input type="number" name="num2" id="num2" /><br />
+            <input type="hidden" name="num3" id="num3" />
+            <!-- //隐藏框，type="hidden" -->
+            <input type="button" class="ysf" value="加" onclick="clac('+')" />
+            <input type="button" class="ysf" value="减" onclick="clac('-')" />
+            <input type="button" class="ysf" value="乘" onclick="clac('*')" />
+            <input type="button" class="ysf" value="除" onclick="clac('/')" />
+            <br />
+            <input type="button" class="num" value="1" onclick="click1(1)" />
+            <input type="button" class="num" value="2" onclick="click1(2)" />
+            <input type="button" class="num" value="3" onclick="click1(3)" />
+            <input type="button" class="num" value="4" onclick="click1(4)" />
+            <input type="button" class="num" value="5" onclick="click1(5)" />
+            <br />
+            <input type="button" class="num" value="6" onclick="click1(6)" />
+            <input type="button" class="num" value="7" onclick="click1(7)" />
+            <input type="button" class="num" value="8" onclick="click1(8)" />
+            <input type="button" class="num" value="9" onclick="click1(9)" />
+            <input type="button" class="num" value="0" onclick="click1(0)" /><br />
+            <input type="button" class="result" value="计算" onclick="result()" />
+            <input type="button" class="result" value="清空" onclick="click2()" />
+        </div>
+        <div class="dis">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        <!-- <h1>总有故事，被影像看见。或者向新而生</h1>
+            <h1>10至名归</h1>
+            <h1>10至名归</h1>
+            <h1>10至名归</h1> -->
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+
+
+    </body>
+
+</html>
